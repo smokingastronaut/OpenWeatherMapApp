@@ -10,6 +10,13 @@ public class CurrentWeather {
     public class MainData{
         Double temp;
     }
+    public class WindData{
+        Double speed;
+        Double deg;
+    }
     @SerializedName("main")
     private MainData mainData;
+    @SerializedName("wind")
+    private WindData windData;
+
 }
