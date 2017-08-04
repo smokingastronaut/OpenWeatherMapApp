@@ -3,6 +3,7 @@ package shiriyazdanov_marat.openweathermapapp;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
+import shiriyazdanov_marat.openweathermapapp.entity.CurrentWeather;
 
 /**
  * Created by Marat_2 on 28.07.2017.
