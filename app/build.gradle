@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 25
     buildToolsVersion '25.0.02'
 
     defaultConfig {
         applicationId "shiriyazdanov_marat.openweathermapapp"
         minSdkVersion 21
-        targetSdkVersion 23
+        targetSdkVersion 25
         versionCode 1
         versionName "1.0"
     }
@@ -24,4 +24,5 @@ dependencies {
     compile 'com.squareup.retrofit2:retrofit:2.1.0'
     compile 'com.squareup.retrofit2:converter-gson:2.2.0'
     compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
 }
